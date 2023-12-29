@@ -1,4 +1,6 @@
 .navbar {
+  background: #e6e6dd;
+  opacity: 0.8;
   height: 5rem;
   width: 100vw;
   max-width: 75rem;
@@ -19,6 +21,7 @@
 }
 
 .desktopMenuListItem {
+  font-family: "Saira", sans-serif;
   margin: 1rem;
   cursor: pointer;
   transition: transform 0.3s ease, border-bottom 0.3s ease;
@@ -31,6 +34,7 @@
   border-bottom: 3px solid #000000;
 }
 .desktopMenuBtn {
+  font-family: "Saira", sans-serif;
   background: black;
   color: #e6e6dd;
   font-size: 1rem;

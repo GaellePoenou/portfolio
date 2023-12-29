@@ -1,0 +1,72 @@
+#skills {
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 2rem;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Saira", sans-serif;
+}
+.container {
+  padding: 2rem;
+  max-width: 600px;
+  text-align: center;
+}
+
+.profil {
+  position: absolute;
+  top: 0rem;
+  right: 8rem;
+  bottom: 0rem;
+  z-index: -1;
+  object-fit: cover;
+  object-position: top left;
+  height: 50vh;
+  width: auto;
+}
+
+.highlight {
+  color: #545454;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.text {
+  font-size: 1.25rem;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#skillsContainer {
+  padding: 2rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 75rem;
+  margin: 2rem 0;
+  overflow: hidden;
+}
+
+.skillsRow {
+  padding: 2rem;
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.skill {
+  width: 50%;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover {
+  transform: scale(1.5);
+}
