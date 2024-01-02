@@ -1,3 +1,22 @@
+# Portfolio 
+
+## Description
+
+Portfolio web personnel présentant mes compétences, projets et informations professionnelles.
+
+## Fonctionnalités Principales
+
+- Présentation personnelle
+- Affichage de compétences
+- Section Projets
+- Curriculum Vitae téléchargeable
+
+## Technologies Utilisées
+
+- HTML, CSS, JavaScript
+- React.js
+- Tailwind CSS
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
